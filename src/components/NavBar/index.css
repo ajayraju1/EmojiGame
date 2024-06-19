@@ -1,0 +1,37 @@
+/* Write your code here. */
+.navbar-bg-con {
+  background-color: #ffffff33;
+  height: 10vh;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo-heading-con {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.nav-logo {
+  height: 30px;
+}
+
+.nav-heading {
+  color: #fff;
+  font-size: 20px;
+}
+
+.score {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-bg-con {
+    padding: 0 80px;
+  }
+}

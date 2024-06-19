@@ -1,0 +1,30 @@
+/* Write your code here. */
+
+.emoji-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  background-color: #ffffff33;
+  border: solid 4px #ffffff30;
+  padding: 24px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.emoji-btn {
+  border: 0;
+  background: none;
+}
+
+.emoji-img {
+  height: 80px;
+}
+
+@media (min-width: 768px) {
+  .emoji-card {
+    padding: 30px;
+    width: 24%;
+  }
+}

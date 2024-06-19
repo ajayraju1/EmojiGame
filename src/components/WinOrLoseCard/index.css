@@ -1,0 +1,80 @@
+/* Write your code here. */
+.card-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: solid 3px #ffffff30;
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 900px;
+}
+
+.card-img {
+  height: 250px;
+  object-fit: contain;
+}
+
+.card-txt-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.won-status {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.score-msg {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.final-score {
+  color: #6a59ff;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.play-again-btn {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: 0;
+  border-radius: 20px;
+  height: 54px;
+  width: 130px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .card-con {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .card-img {
+    order: 1;
+    height: 350px;
+  }
+
+  .won-status {
+    font-size: 30px;
+  }
+
+  .score-msg {
+    font-size: 25px;
+  }
+
+  .final-score {
+    font-size: 40px;
+  }
+}
